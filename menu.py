@@ -1,6 +1,6 @@
 import operadores
 
-print('Escolha as operações a baixo:')
+print('Escolha das operações: ')
 print('1 - Adição\n2 - Subtração\n3 - Multiplicação\n4 - Divisão')
 
 escolha = int(input("Digite sua escolha: "))
@@ -17,3 +17,5 @@ elif (escolha == 3):
 elif (escolha == 4):
     print('***Divisão***')
     operadores.divisao()
+else:
+    print('Opação invalida')
